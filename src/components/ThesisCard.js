@@ -4,7 +4,7 @@ const ThesisCard = ({thesis,link}) =>{
     return(
         <div className='thesisCard-container'>
            <h1 className='thesis-title'>Title: {thesis.thesisTitle}</h1>
-           <p className='abstract'>{thesis.abstract}</p>
+           <p className='abstract'>Abstract: {thesis.abstract}</p>
            <h3>Key Contributions</h3>
            <ul>
             <li>VisionTransformerAccuracy: {thesis.keyContributions.visionTransformerAccuracy}</li>
