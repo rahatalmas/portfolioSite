@@ -37,6 +37,11 @@ const ResearchPage = () =>{
            <div className='conference-container'>
 
            </div>
+
+           <IndexHeader title1="Publication"/>
+           <div className='conference-container'>
+
+           </div>
         </div>
     );
 }
