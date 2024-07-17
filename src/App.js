@@ -8,6 +8,7 @@ import ProfileCard from './components/ProfileCard';
 import Home from './pages/Home';
 import ResearchPage from './pages/ResearchPage';
 import TeachingPage from './pages/TeachingPage';
+import AchievementPage from './pages/AchievementPage';
 
 const Nav = () =>{
     return (
@@ -60,7 +61,7 @@ const App = createBrowserRouter([
         },
         {
           path:"/achievements",
-          element:<h1>achievements</h1>
+          element:<AchievementPage/>
 
         },
         {
