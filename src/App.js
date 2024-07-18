@@ -9,6 +9,8 @@ import Home from './pages/Home';
 import ResearchPage from './pages/ResearchPage';
 import TeachingPage from './pages/TeachingPage';
 import AchievementPage from './pages/AchievementPage';
+import ExperiencePage from './pages/ExperiencePage';
+import SideNav from './components/SideNav';
 
 const Nav = () =>{
     return (
@@ -30,6 +32,10 @@ const Nav = () =>{
                 <Outlet/>
                 <div className='site-map'></div>
               </div>
+              <div className='dummy-col-2'>
+
+              </div>
+              <div className='col-3'><SideNav/></div>
           </div>
         </div>
     );
@@ -47,7 +53,7 @@ const App = createBrowserRouter([
         },
         {
           path:"/experience",
-          element:<h1>experience</h1>
+          element:<ExperiencePage/>
         },
         {
           path:"/research",

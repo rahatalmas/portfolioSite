@@ -43,10 +43,21 @@
 }
 
 .col-2{
-  width: 68%;  
-  padding: 0px;
+  width: 63%;  
+  padding:0px 5px;
 }
 
+.dummy-col-2{
+  width: 5%;
+}
+.col-3{
+  margin-left:20px;
+  text-align: center;
+  position: fixed;
+  left: 93%;
+  top: 25%;
+  width: 55px;
+}
 .site-map{
   height: 200px;
   background-color: black;

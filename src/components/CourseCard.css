@@ -1,11 +1,11 @@
 .course-sec{
-    margin: 15px 0px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
     align-items: center;
-    gap: 20px;
+    padding:0px 0px;
 }
 .course-card{
+    width: 50%;
+    margin:5px;
     border-radius: 15px;
     padding: 10px;
     display: flex;
