@@ -1,5 +1,5 @@
-import '../components/IndexHeader.css';
-
+import './IndexHeader.css';
+import React from 'react';
 const IndexHeader = ({icon,title1,title2})=>{
     return(
         <div className='index-header-container'>

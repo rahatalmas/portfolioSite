@@ -1,24 +1,319 @@
+.main-container{
+    color: black;
+    height: 100vh;
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .home-container{
+    
 }
-.h-p{
-    margin: 10px 0px;
-    text-align: justify;
+.about-section{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
 }
+.about-card-container{
+    flex:1;
+}
+.about-card{
+    margin: 15px 15px 15px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightyellow;
+    border: 2px solid gainsboro;
+    text-align: center;
+}
+.card-image-con{
 
-.h-s{
-    color: #28e98c;
-    font-size: 16px;
+}
+.card-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-head h2{
+    margin: 0;
+}
+.cv-btn{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+.cv-btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+.about-image{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.my-keys{
+    margin: 0;
+}
+.about-decription-container{
+    flex:2;
+}
+.degree{
     font-weight: bold;
 }
 
-.research-interest{
-    color: white;
-    background-color:#28e98c;
-    padding: 5px;
-    border-radius: 5px;
-    display: inline-block;
+.key{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 18px;
 }
-.r-i-keys{
-    display: inline-block;
-    margin-left: 5px;
+.attribute{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.attr-value{
+    color: blueviolet;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.mail-btn{
+    width: 100%;
+    padding: 10px;
+    outline:none;
+    border:2px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mail-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.project-section{
+    width: 100%;
+}
+
+.skill-title{
+    margin: 0;
+}
+.skill-description{
+    margin: 0;
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .about-section{
+        background-color: rebeccapurple;
+    }
+}
+
+
+.project-card-container{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-card{
+ background-color: rgb(245, 250, 225);
+ border: 1px solid gainsboro;
+ display: flex;
+ padding: 15px;
+ margin: 5px;
+ border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.project-card-image-con{
+    flex: 1.5;
+    text-align: center;
+}
+.project-card-img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.project-card-info{
+    flex:2;
+    padding-left: 10px;
+}
+.project-domain{
+    margin:0;
+    font-size: 15px;
+}
+.project-title{
+    margin:0;
+    color: blueviolet;
+}
+.project-description{
+    margin: 10px 0px;
+}
+.slide-circle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.slide-circle{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    border: 2px solid blueviolet;
+    margin: 0px 2px;
+}
+
+.slide-circle-active{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    margin: 0px 2px;
+}
+.slide-circle:first-child{
+}
+
+.project-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p-c-btn{
+    flex: 1;
+    padding: 7px;
+    outline: none;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.p-c-btn:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.skill-tool{
+    color: blueviolet;
+}
+
+.p-c-btn:first-child{
+    margin-right: 5px;
+}
+
+
+.activity-section{
+   padding: 25px;
+}
+
+.activity-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-card{
+   flex: 1;
+   border-radius: 20px;
+   background-color: lightgoldenrodyellow;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px;
+   margin: 10px;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+.activity-data{
+   position: relative;
+
+  flex: 3;
+  margin-right: 20px;
+  border-right: 2px solid burlywood;
+}
+.activity-image-con{
+   flex: 1;
+   text-align: center;
+   padding: 10px;
+   border-radius: 15px;
+   background-color: lightgrey;
+}
+
+.activity-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.activity-title{
+    margin: 5px;
+}
+.activity-p-con{
+    margin: 5px;
+}
+.photo-gallery{
+
+}
+
+.photo-gallery-img{
+    width: 150px;
+    height: 45%;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 10px;
+    border: 5px solid gainsboro;
+}
+
+.p-g-i1{
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+.p-g-i2{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+.p-g-i3{
+    position: absolute;
+    bottom:0px;
+    right:183px;
+    height: 94%;
+}
+.p-g-i4{
+    position: absolute;
+    bottom:0px;
+    right:352px;
+}
+.p-g-i5{
+    position: absolute;
+    top:0px;
+    right:352px;
+}
+
+.sitemap-section{
+    border-top: 1px solid gainsboro;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

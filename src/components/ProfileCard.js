@@ -5,7 +5,7 @@ const ProfileCard = () =>{
       <div className="profile-card-container">
          <div className='profile-card'>
             <div className='p-c-header'>
-                <h1 className='p-h-1'>Tariqul Islam</h1> <button className='cv-btn'>Cv</button>
+                <h1 className='p-h-1'>Rahat Almas</h1> <button className='cv-btn'>Cv</button>
             </div>
             <div className='p-c-image-container'>
                 <img className='p-c-image' src='https://i.pinimg.com/564x/65/17/e5/6517e52a015c88d3b47beb60d461120a.jpg' alt='Profile Image'/>
